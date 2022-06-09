@@ -1,0 +1,75 @@
+*{
+    padding: 0px; 
+    margin: auto;
+    font-family: arial;
+
+}
+
+label, input{
+
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+
+}  
+form{
+    width: 330px;
+    padding-block-end: 20px;
+    margin: 30px auto;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+#izquerda{
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+h2#titulo{
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+h2{
+    text-align: auto;}
+#direita{
+    width: 65%;
+    height: 500px;
+    float: left;
+}  
+table{
+    border-left-color: (0,0,0.2);
+    width:auto 30%;
+    margin: 30px auto;
+}     
+tr{
+    line-height: 30px;
+
+}
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+    color:white;
+}
+td{
+    padding: 0px 55px;
+}
+td#bottom{
+    padding: 0px 55px;
+    color: black;
+    background-color: rgba(0,0,0,.3);
+    
+
+}
+a{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    margin: 0px 5px;
+    text-decoration: none;
+}
